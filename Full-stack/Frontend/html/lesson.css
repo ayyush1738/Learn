@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background-color: #eef;
+}
+
+h2 {
+    color: darkblue;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}

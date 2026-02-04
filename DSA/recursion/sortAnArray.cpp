@@ -9,7 +9,7 @@ void insert(vector<int>& arr, int temp)
         return;
     }
 
-    int val = arr[size()-1];
+    int val = arr[arr.size()-1];
     arr.pop_back();
     insert(arr, temp);
     arr.push_back(val);
@@ -28,6 +28,7 @@ void sort(vector<int> arr)
     sort(arr);
     insert(arr, temp);
 }
+
 int main()
 {
     return 0;

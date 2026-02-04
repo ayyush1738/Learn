@@ -31,6 +31,7 @@ void sortStack(stack<int>& st)
     insertSorted(st, temp);
 }
 
+
 int main()
 {
     stack<int> st;

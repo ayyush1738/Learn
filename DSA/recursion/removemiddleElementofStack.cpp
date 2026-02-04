@@ -1,4 +1,4 @@
-#include<bitrs/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 void solve(stack<int> st, int k)
@@ -19,12 +19,13 @@ stack<int> middleDel(stack<int> st, int size)
 {
     if(size==0)
     {
-        return s;
+        return st;
     }
 
     int k = (size/2)+1;
-    solve(s, k);
+    solve(st, k);
 }
+
 
 int main()
 {
